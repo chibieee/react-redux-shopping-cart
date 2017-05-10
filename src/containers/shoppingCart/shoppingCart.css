@@ -1,0 +1,14 @@
+.shoppingcart-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shoppingcart-img {
+    display: block;
+    max-width: 200px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}

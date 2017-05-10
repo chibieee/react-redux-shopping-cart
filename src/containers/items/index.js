@@ -20,7 +20,7 @@ class Items extends Component {
                 className='items-list-item'
                 onClick={() => addToCartAction(item)}
             >
-                <img alt='itemimg' src={item.link} />
+                <img alt='itemimg' className='items-img' src={item.link} />
                 <span>{item.title}</span>
             </li>
         ));

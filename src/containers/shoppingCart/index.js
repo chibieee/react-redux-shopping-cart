@@ -15,7 +15,7 @@ export class ShoppingCart extends Component {
                     className="shoppingcart-list-item"
                     onClick={ () => removeFromCartDispatch(item.id)}
                 >
-                    <img alt='itemimg' src={item.link} />
+                    <img alt='itemimg' className='shoppingcart-img' src={item.link} />
                     {item.title}
                 </li>
             )
